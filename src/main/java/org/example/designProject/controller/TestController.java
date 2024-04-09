@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 
 @RestController
-public class testController {
+public class TestController {
     @GetMapping("/contents")
     public Contents getContents() {
         User user = new User("user01", "1234");
